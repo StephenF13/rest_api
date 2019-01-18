@@ -36,10 +36,6 @@ class Place
      */
     protected $prices;
 
-    public function __construct()
-    {
-        $this->prices = new ArrayCollection();
-    }
 
     /**
      * @return mixed
@@ -111,6 +107,30 @@ class Place
     {
         $this->prices = $prices;
         return $this;
+    }
+
+    /**
+     * @ORM\OneToMany(targetEntity="Theme", mappedBy="place")
+     * @var Theme[]
+     */
+    protected $themes;
+
+    public function __construct()
+    {
+        $this->prices = new ArrayCollection();
+        $this->themes = new ArrayCollection();
+    }
+
+    // ...
+
+    public function getThemes()
+    {
+        return $this->themes;
+    }
+
+    public function setThemes($themes)
+    {
+        $this->themes = $themes;
     }
 
 }
