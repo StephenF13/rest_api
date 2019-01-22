@@ -13,6 +13,8 @@ parameters:
 framework:
     #esi: ~
     #translator: { fallbacks: ['%locale%'] }
+    templating:
+        engines: ['twig']
     secret: '%secret%'
     router:
         resource: '%kernel.project_dir%/app/config/routing.yml'
@@ -95,3 +97,13 @@ jms_serializer:
         datetime:
             default_format: "Y-m-d\\TH:i:sP"
             default_timezone: "UTC"
+
+nelmio_api_doc:
+    # ...
+    swagger:
+        api_base_path:        /
+        swagger_version:      '1.2'
+        api_version:          '1.0'
+        info:
+            title:                Rest API
+            description:          'Proposition de sortie aux utilisateurs'
