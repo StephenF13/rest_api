@@ -7,6 +7,8 @@ imports:
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
+    jms_serializer.camel_case_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
+
 
 framework:
     #esi: ~
@@ -18,7 +20,7 @@ framework:
     form: ~
     csrf_protection: ~
     validation: { enable_annotations: true }
-    serializer: { enable_annotations: true }
+    serializer: { enable_annotations: false }
     default_locale: '%locale%'
     trusted_hosts: ~
     session:
@@ -71,6 +73,8 @@ sensio_framework_extra:
         annotations: false
 
 fos_rest:
+    serializer:
+        serialize_null:  true
     routing_loader:
         include_format: false
     view:
@@ -85,3 +89,9 @@ fos_rest:
         enabled: true
     param_fetcher_listener:
         enabled: true
+
+jms_serializer:
+    handlers:
+        datetime:
+            default_format: "Y-m-d\\TH:i:sP"
+            default_timezone: "UTC"
