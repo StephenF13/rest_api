@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c175e3b6-635b-4ea7-b755-cd1b25d83f9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rest_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/AuthTokenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/AuthTokenController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/PlaceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/PlaceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/Type/PlaceType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/PlaceType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,15 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthTokenController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AuthTokenController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FOSRestFormErrorsParser.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/ApiDoc/Parser/FOSRestFormErrorsParser.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthTokenAuthenticator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="e#38#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="279">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -110,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Form/Type/CredentialsType.php" />
         <option value="$PROJECT_DIR$/app/config/serialization.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Security/AuthTokenUserProvider.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Place.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/Validator/Constraint/PriceTypeUnique.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/Validator/Constraint/PriceTypeUniqueValidator.php" />
@@ -131,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/PlaceController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AuthTokenController.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php" />
       </list>
     </option>
   </component>
@@ -277,7 +270,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="servi&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/services.yml&#10;placetyp&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/PlaceType.php&#10;kernel&#9;FILE&#9;file://C:/wamp/www/rest_api/app/AppKernel.php&#10;place&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Entity/Place.php&#10;vali&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/validation.yml&#10;placety&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/PlaceType.php&#10;config&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/config.yml&#10;securi&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/security.yml&#10;services.&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/services.yml&#10;rout&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/routing.yml&#10;seriali&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/serialization.yml&#10;usercon&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Controller/UserController.php&#10;valida&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/validation.yml&#10;usertype&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/UserType.php" />
+    <property name="SearchEverywhereHistoryKey" value="authtok&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Security/AuthTokenAuthenticator.php&#10;servi&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/services.yml&#10;placetyp&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/PlaceType.php&#10;kernel&#9;FILE&#9;file://C:/wamp/www/rest_api/app/AppKernel.php&#10;place&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Entity/Place.php&#10;vali&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/validation.yml&#10;placety&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/PlaceType.php&#10;config&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/config.yml&#10;securi&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/security.yml&#10;services.&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/services.yml&#10;rout&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/routing.yml&#10;seriali&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/serialization.yml&#10;usercon&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Controller/UserController.php&#10;valida&#9;FILE&#9;file://C:/wamp/www/rest_api/app/config/validation.yml&#10;usertype&#9;FILE&#9;file://C:/wamp/www/rest_api/src/AppBundle/Form/Type/UserType.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -311,12 +304,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547656186591</updated>
       <workItem from="1547656201046" duration="13443000" />
-      <workItem from="1548079965598" duration="14237000" />
+      <workItem from="1548079965598" duration="15228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27680000" />
+    <option name="totallyTimeSpent" value="28671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -558,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1476">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#38#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Place.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -699,6 +682,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AuthTokenController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -716,10 +706,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Security/AuthTokenAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="168">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#83#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

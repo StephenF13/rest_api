@@ -22,17 +22,20 @@ class AuthTokenAuthenticator implements SimplePreAuthenticatorInterface, Authent
 
     protected $httpUtils;
 
-    public function __construct(HttpUtils $httpUtils)
+    public function __construct()
     {
-        $this->httpUtils = $httpUtils;
     }
 
     public function createToken(Request $request, $providerKey)
     {
+        $autorisedPaths = [
+            'post_users', // Création d'un utilisateur (inscription)
+            'post_auth_tokens', // Création d'un token (connexion)
+        ];
 
-        $targetUrl = '/auth-tokens';
-        // Si la requête est une création de token, aucune vérification n'est effectuée
-        if ($request->getMethod() === "POST" && $this->httpUtils->checkRequestPath($request, $targetUrl)) {
+        $currentRoute = $request->attributes->get('_route');
+
+        if (in_array($currentRoute, $autorisedPaths)) {
             return;
         }
 
