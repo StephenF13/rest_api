@@ -6,6 +6,6 @@ Enregistre des lieux et fait des suggestions de sorties aux utilisateurs selon l
 
 ---
 
-Conversion des ressources avec formulaire (pas avec body converter)
-Contraintes de validation dans fichier yml
+Conversion des ressources avec formulaire (pas avec body converter)<br/>
+Contraintes de validation dans fichier yml<br/>
 Routing dans fichier yml
